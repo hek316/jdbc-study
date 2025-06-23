@@ -7,14 +7,9 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
-import javax.print.attribute.standard.JobOriginatingUserName;
-
 import java.sql.SQLException;
-import java.util.NoSuchElementException;
-
 import static hello.jdbcstudy.connection.ConnectionsConst.*;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.junit.jupiter.api.Assertions.*;
 
 
